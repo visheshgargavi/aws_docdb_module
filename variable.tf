@@ -13,7 +13,7 @@ variable "master_password" {
   default = "admin"
   description = "DocumentDB master password"
 }
-variable "master_name" {
+variable "master_username" {
   type = string
   default = "admin"
   description = "DocumentDB master username"
