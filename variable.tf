@@ -10,12 +10,12 @@ variable "docdb_cluster_creation" {
 }
 variable "master_password" {
   type = string
-  default = "admin"
+  default = null
   description = "DocumentDB master password"
 }
 variable "master_username" {
   type = string
-  default = "admin"
+  default = null
   description = "DocumentDB master username"
 }
 

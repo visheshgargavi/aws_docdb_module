@@ -6,7 +6,7 @@ This module is used to create following AWS resources
 ## Examples
 ```hcl
 module "aws_docdb_cluster" {
-  source = "github.com/visheshgargavi/aws_docdb_module?ref=v0.0.1"
+  source = "github.com/visheshgargavi/aws_docdb_module?ref=v0.0.2"
   create_cluster = true
   docdb_cluster_creation = true
   master_username = "admin"
